@@ -1,12 +1,14 @@
 <?php
+
 $host = "localhost";
-$user = "root";
-$password = "";
-$database = "scp_database";
+$user = "a30105201_a30105201";
+$password = "Toiohomai1234";
+$database = "a30105201_scp_database";
 
 $conn = mysqli_connect($host, $user, $password, $database);
 
 if (!$conn) {
-    die("Database connection failed: " . mysqli_connect_error());
+    die("Connection failed: " . mysqli_connect_error());
 }
+
 ?>
